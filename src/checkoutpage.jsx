@@ -3,7 +3,7 @@ import React from 'react';
 const CheckoutPage = () => {
   const handleCheckout = async () => {
     try {
-      const res = await fetch('https://reactexpress.netlify.app/create-checkout-session', {
+      const res = await fetch('/.netlify/functions/create-checkout-session', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
       });
