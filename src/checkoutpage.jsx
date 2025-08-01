@@ -3,7 +3,7 @@ import React from 'react';
 const CheckoutPage = () => {
   const handleCheckout = async () => {
     try {
-      const res = await fetch('https://vercel.com/beingscorppp/backend-only/76XP71AbeY89FcvZRQLqb6PNpm96/create-checkout-session', {
+      const res = await fetch('https://backend-only-q2zx5uxyh-beingscorppp.vercel.app/create-checkout-session', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
       });
