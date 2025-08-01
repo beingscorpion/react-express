@@ -3,7 +3,7 @@ import React from 'react';
 const CheckoutPage = () => {
   const handleCheckout = async () => {
     try {
-      const res = await fetch('/.netlify/functions/create-checkout-session', {
+      const res = await fetch('https://vercel.com/beingscorppp/backend-only/76XP71AbeY89FcvZRQLqb6PNpm96/create-checkout-session', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
       });
@@ -14,6 +14,7 @@ const CheckoutPage = () => {
       console.error('Error creating checkout session', err);
     }
   };
+
 
   return (
     <div style={{ textAlign: 'center', marginTop: '40px' }}>
