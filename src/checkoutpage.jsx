@@ -4,7 +4,7 @@ const CheckoutPage = () => {
   const handleCheckout = async () => {
     try {
       console.log('Sending request to backend...');
-      const res = await fetch('https://backend-only-q2zx5uxyh-beingscorppp.vercel.app/create-checkout-session', {
+      const res = await fetch('https://backend-only-eonx7e0cp-beingscorppp.vercel.app/create-checkout-session', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
       });
