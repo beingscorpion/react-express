@@ -7,7 +7,7 @@ const CheckoutPage = () => {
     setLoading(true);
     try {
       console.log('Sending request to backend...');
-      const res = await fetch('https://backend-only-eonx7e0cp-beingscorppp.vercel.app/create-checkout-session', {
+      const res = await fetch('https://backend-only-theta.vercel.app/create-checkout-session', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
       });
